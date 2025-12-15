@@ -1,3 +1,5 @@
+// Lotem Sharir
+
 const express = require("express");
 const app = express();
 const port = 3000;
@@ -37,3 +39,4 @@ app.get("/home", (req, res) => {
 app.listen(port, () => {
   console.log(`The application is running on port ${port}`);
 });
+
