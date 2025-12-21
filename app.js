@@ -1,4 +1,4 @@
-// Lotem Sharir & Ameed Halabi
+// Lotem Sharir
 
 const express = require("express");
 const app = express();
@@ -39,5 +39,6 @@ app.get("/home", (req, res) => {
 app.listen(port, () => {
   console.log(`The application is running on port ${port}`);
 });
+
 
 
